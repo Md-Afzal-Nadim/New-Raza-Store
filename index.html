@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="New Raza Store - Online grocery delivery. Fresh products, best price, fast delivery.">
+
+    <title>New Raza Store | Groceries in Your Area</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="hero">
+        <div class="store-name">
+          New Raza Store
+          <p>نیو رضا اسٹور</p>
+        </div>
+        <div class="welcome-text">Welcome to my website</div>
+      </section>
+
+      <header>
+        <h1>Apna Store — Order karein</h1>
+        <select id="categoryFilter">
+          <option value="all">-- All Products --</option>
+          <option value="taal">Taal (oil) — تیل</option>
+          <option value="aata">Aata (flour) — آٹا</option>
+          <option value="daal">Daal (pulses) — دال</option>
+          <option value="biscuit">Biscuit — بسکٹ</option>
+          <option value="masala">Masala (spices) — مصالحہ</option>
+          <option value="butter">Butter (milk) — مکھن / دودھ</option>
+          <option value="surf">Surf (detergent) — سرف</option>
+          <option value="chai-patti">Chai-patti (tea) — چائے پتی</option>
+          <option value="rice">Rice — چاول</option>
+          <option value="maida">Maida (sugar) — میدہ / چینی</option>
+          <option value="maggie">Maggie — میگی</option>
+        </select>
+      </header>
+
+      <p class="small">
+        Category select karein aur apne items add karke WhatsApp se order
+        bhejein.
+      </p>
+      <div class="grid" id="products"></div>
+
+      <div class="cart" id="viewCart">
+        <span>🛒</span>
+        Cart (<span id="cartCount">0</span>)
+      </div>
+
+      <footer>
+        Tip: WhatsApp number code me replace karein (country code ke saath, bina
+        +).
+      </footer>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-card">
+        <h3>Checkout</h3>
+        <div id="cartItems"></div>
+
+        <label>Naam</label>
+        <input id="buyerName" placeholder="Aapka naam" required />
+
+        <label>Mobile Number</label>
+        <input
+          id="buyerPhone"
+          type="tel"
+          placeholder="Aapka mobile (example: 9812345678)"
+          required
+        />
+
+        <label>Delivery Address</label>
+        <textarea
+          id="buyerAddr"
+          rows="3"
+          placeholder="Address, phone, time..."
+          required
+        ></textarea>
+
+        <label>Store Owner Number</label>
+        <input id="ownerNumber" disabled />
+
+        <div class="modal-actions">
+          <button id="sendBtn">Send on WhatsApp</button>
+          <button id="closeBtn" class="btn-cancel">Cancel</button>
+        </div>
+
+        <p class="small" style="margin-top: 16px">
+          Note: Ye frontend-only solution hai — order bhejne se pehle user ka
+          WhatsApp khulega.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
