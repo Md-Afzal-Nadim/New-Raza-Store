@@ -1,7 +1,7 @@
 const OWNER_PHONE_DEFAULT = "91 7827158297";
 
 const PRODUCTS = [
-  // Taal (Oil)
+  // Tail (Oil)
   {
     id: 1,
     category: "taal",
@@ -26,7 +26,7 @@ const PRODUCTS = [
   {
     id: 4,
     category: "taal",
-    name: "Bail Kohlu Oil 1L",
+    name: "Bail Kolhu Oil 1L",
     price: 180,
     img: "image/bail kohlu oil.jpg",
   },
@@ -54,7 +54,7 @@ const PRODUCTS = [
   {
     id: 8,
     category: "taal",
-    name: "Bail Kohlu Oil 2L",
+    name: "Bail Kolhu Oil 2L",
     price: 360,
     img: "image/5l bail kohlu.jpg",
   },
@@ -77,14 +77,14 @@ const PRODUCTS = [
   {
     id: 11,
     category: "aata",
-    name: "Shiri Bhog Aata 5kg",
-    price: 187,
+    name: "Shree Bhog Aata 5kg",
+    price: 179,
     img: "image/5kg aata.jpeg",
   },
   {
     id: 12,
     category: "aata",
-    name: "shiri Bhog Aata 10kg",
+    name: "shree Bhog Aata 10kg",
     price: 349,
     img: "image/10kg aata.jpeg",
   },
@@ -94,21 +94,21 @@ const PRODUCTS = [
     id: 13,
     category: "daal",
     name: "Chana 1kg",
-    price: 83,
+    price: 79,
     img: "image/chana dal.avif",
   },
   {
     id: 14,
     category: "daal",
     name: "Chana Dal 1kg",
-    price: 83,
+    price: 79,
     img: "image/chana dall.webp",
   },
   {
     id: 15,
     category: "daal",
     name: "Masoor Dal 1kg",
-    price: 83,
+    price: 79,
     img: "image/masoor dal.webp",
   },
   {
@@ -121,22 +121,22 @@ const PRODUCTS = [
   {
     id: 17,
     category: "daal",
-    name: "Moong Dal 1kg",
-    price: 115,
+    name: "Chilka Moong Dal (yellow)  1kg",
+    price: 120,
     img: "image/moong-dal.jpg",
   },
   {
     id: 18,
     category: "daal",
-    name: "Chhilka Moong Dal 1kg",
-    price: 115,
+    name: "Chilka Moong Dal (green) 1kg",
+    price: 120,
     img: "image/chilka moong dal.webp",
   },
   {
     id: 19,
     category: "daal",
-    name: "Kali Urad Dal 1kg",
-    price: 144,
+    name: "Chilka Kali Urad Dal 1kg",
+    price: 120,
     img: "image/kali-urad-dall.webp",
   },
   {
@@ -150,7 +150,7 @@ const PRODUCTS = [
     id: 63,
     category: "daal",
     name: "White Urad Dal 1kg",
-    price: 115,
+    price: 120,
     img: "image/white-urad-dal.webp",
   },
 
@@ -159,22 +159,22 @@ const PRODUCTS = [
   {
     id: 21,
     category: "masala",
-    name: "200gm Mirch",
-    price: 99,
+    name: "200gm Mirch Powder",
+    price: 110,
     img: "image/masala/mircha.webp",
   },
   {
     id: 22,
     category: "masala",
-    name: "200gm Haldi",
-    price: 99,
+    name: "200gm Haldi Powder",
+    price: 90,
     img: "image/masala/haldi.jpg",
   },
   {
     id: 23,
     category: "masala",
-    name: "200gm Dhaniya",
-    price: 99,
+    name: "200gm Dhaniya Powder",
+    price: 80,
     img: "image/masala/dhaniya.jpeg",
   },
   {
@@ -266,7 +266,7 @@ const PRODUCTS = [
   {
     id: 36,
     category: "biscuit",
-    name: "Meri Gold 12 pcs",
+    name: "Mari Gold 12 pcs",
     price: 114,
     img: "image/biscuit/meri gold.webp",
   },
@@ -294,9 +294,9 @@ const PRODUCTS = [
   {
     id: 40,
     category: "biscuit",
-    name: "Burwan 12 pcs",
+    name: "Bournbon 12 pcs",
     price: 114,
-    img: "image/biscuit/burwan.jpg",
+    img: "image/biscuit/burbun.webp",
   },
   {
     id: 41,
@@ -325,7 +325,7 @@ const PRODUCTS = [
     id: 44,
     category: "rice",
     name: "Double Chabi Rice 1kg",
-    price: 155,
+    price: 115,
     img: "image/Rice/dabal chabhi rice.png",
   },
   {
@@ -365,13 +365,13 @@ const PRODUCTS = [
     price: 70,
     img: "image/milk/fresh cream.webp",
   },
-  {
+ /* {
     id: 50,
     category: "butter",
     name: "1L Ghee Mother Dairy",
     price: 500,
     img: "image/milk/ghee.webp",
-  },
+  },*/
 
   // Surf
   {
@@ -384,7 +384,7 @@ const PRODUCTS = [
   {
     id: 52,
     category: "surf",
-    name: "1kg Surf Exal",
+    name: "1kg Surf Excel",
     price: 135,
     img: "image/surf/surf exal.jpg",
   },
