@@ -296,7 +296,7 @@ const PRODUCTS = [
     category: "biscuit",
     name: "Bournbon 12 pcs",
     price: 114,
-    img: "image/biscuit/burwan.jpg",
+    img: "image/Biscuit/burbun.webp",
   },
   {
     id: 41,
