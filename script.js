@@ -37,13 +37,13 @@ const PRODUCTS = [
     price: 165,
     img: "image/babaji oil.webp",
   },
-  {
+  /*{
     id: 6,
     category: "taal",
     name: "Fortune Oil 5L",
     price: 900,
     img: "image/5l fortune oil.png",
-  },
+  },*/
   {
     id: 7,
     category: "taal",
@@ -93,64 +93,64 @@ const PRODUCTS = [
   {
     id: 13,
     category: "daal",
-    name: "Chana 1kg",
-    price: 79,
+    name: "Chana 500 Gm",
+    price: 40,
     img: "image/chana dal.avif",
   },
   {
     id: 14,
     category: "daal",
-    name: "Chana Dal 1kg",
-    price: 79,
+    name: "Chana Dal 500 Gm",
+    price: 40,
     img: "image/chana dall.webp",
   },
   {
     id: 15,
     category: "daal",
-    name: "Masoor Dal 1kg",
-    price: 79,
+    name: "Masoor Dal 500 Gm",
+    price: 40,
     img: "image/masoor dal.webp",
   },
   {
     id: 16,
     category: "daal",
-    name: "Arhar Dal 1kg",
-    price: 115,
+    name: "Arhar Dal 500 Gm",
+    price: 59,
     img: "image/arhar dal.webp",
   },
   {
     id: 17,
     category: "daal",
-    name: "Chilka Moong Dal (yellow)  1kg",
-    price: 120,
+    name: "Moong Dal (yellow)  500 Gm",
+    price: 60,
     img: "image/moong-dal.jpg",
   },
   {
     id: 18,
     category: "daal",
-    name: "Chilka Moong Dal (green) 1kg",
-    price: 120,
+    name: "Chilka Moong Dal (green) 500 Gm",
+    price: 60,
     img: "image/chilka moong dal.webp",
   },
   {
     id: 19,
     category: "daal",
-    name: "Chilka Kali Urad Dal 1kg",
-    price: 120,
+    name: "Chilka Kali Urad Dal 500 Gm",
+    price: 60,
     img: "image/kali-urad-dall.webp",
   },
   {
     id: 20,
     category: "daal",
-    name: "Matar Dal 1kg",
-    price: 85,
+    name: "Matar Dal 500 Gm",
+    price: 43,
     img: "image/matar_dal.jpg",
   },
    {
     id: 63,
     category: "daal",
-    name: "White Urad Dal 1kg",
-    price: 120,
+    name: "White Urad Dal 500 Gm",
+    price: 60,
     img: "image/white-urad-dal.webp",
   },
 
@@ -252,36 +252,36 @@ const PRODUCTS = [
   {
     id: 34,
     category: "biscuit",
-    name: "Dream Lite 12 pcs",
-    price: 114,
+    name: "Dream Lite 1 pcs",
+    price: 10,
     img: "image/Biscuit/dream lite.jpg",
   },
   {
     id: 35,
     category: "biscuit",
-    name: "Good Day 12 pcs",
-    price: 114,
+    name: "Good Day 1 pcs",
+    price: 10,
     img: "image/Biscuit/gooday.webp",
   },
   {
     id: 36,
     category: "biscuit",
-    name: "Mari Gold 12 pcs",
-    price: 114,
+    name: "Mari Gold 1 pcs",
+    price: 10,
     img: "image/Biscuit/meri gold.webp",
   },
   {
     id: 37,
     category: "biscuit",
-    name: "Moms Magic 12 pcs",
-    price: 114,
+    name: "Moms Magic 1 pcs",
+    price: 10,
     img: "image/Biscuit/moms magic.jpg",
   },
   {
     id: 38,
     category: "biscuit",
-    name: "Milk Biscuit 12 pcs",
-    price: 114,
+    name: "Milk Biscuit 1 pcs",
+    price: 10,
     img: "image/Biscuit/milk biskut.webp",
   },
   {
@@ -332,7 +332,7 @@ const PRODUCTS = [
     id: 45,
     category: "rice",
     name: "Basmati Rice 5kg",
-    price: 570,
+    price: 579,
     img: "image/Rice/5kg ruce.jpeg",
   },
 
@@ -340,15 +340,15 @@ const PRODUCTS = [
   {
     id: 46,
     category: "butter",
-    name: "2L Full Cream",
-    price: 140,
+    name: "1L Full Cream",
+    price: 70,
     img: "image/milk/full cream milk.webp",
   },
   {
     id: 47,
     category: "butter",
-    name: "2L Cow Milk",
-    price: 120,
+    name: "1L Cow Milk",
+    price: 60,
     img: "image/milk/cow milk.webp",
   },
   {
@@ -429,22 +429,22 @@ const PRODUCTS = [
     id: 57,
     category: "chai-patti",
     name: "Tata Gold 250gm",
-    price: 185,
+    price: 180,
     img: "image/chai-patti/tata gold.jpg",
   },
 
 
   //Maida 
-  {id:57, category:'maida', name:'1kg Maida', price:64, img:'image/maida/maida.jpeg'},
-{id:58, category:'maida', name:'1kg Daliya', price:64, img:'image/maida/daliya.jpg'},
-{id:59, category:'maida', name:'1kg Poha', price:80, img:'image/maida/poha.jpeg'},
-{id:60, category:'maida', name:'1kg Sooji', price:64, img:'image/maida/sooji.jpeg'},
-{id:61, category:'maida', name:'2kg Sugar', price:95, img:'image/maida/sugar.jpeg'},
+  {id:57, category:'maida', name:'500 Gm Maida', price:35, img:'image/maida/maida.jpeg'},
+{id:58, category:'maida', name:'500 Gm Daliya', price:35, img:'image/maida/daliya.jpg'},
+{id:59, category:'maida', name:'500 Gm Poha', price:43, img:'image/maida/poha.jpeg'},
+{id:60, category:'maida', name:'500 Gm Sooji', price:35, img:'image/maida/sooji.jpeg'},
+{id:61, category:'maida', name:'1kg Sugar', price:48, img:'image/maida/sugar.jpeg'},
 
 
 
 //maggie
-{id:62, category:'maggie', name:'6 Pack Maggie', price:90, img:'image/maggie.jpg'}
+{id:62, category:'maggie', name:'1 Pack Maggie', price:15, img:'image/maggie.jpg'}
 
 
 
@@ -614,11 +614,12 @@ document.getElementById("sendBtn").addEventListener("click", () => {
     return;
   }
 
-  const totalQty = items.reduce((s, i) => s + i.qty, 0);
-  if (totalQty < 5) {
-    alert("Order tabhi confirm hoga jab kam se kam 5 items order karein.");
-    return;
-  }
+  let totalAmount = items.reduce((s, i) => s + (i.price * i.qty), 0);
+if (totalAmount < 600) {
+  alert("Order tabhi confirm hoga jab kam se kam ₹600 ka order ho.");
+  return;
+}
+
 
   let msg = `Naya order%0A`;
   msg += `Buyer: ${encodeURIComponent(name)}%0A`;
