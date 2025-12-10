@@ -114,8 +114,8 @@ const PRODUCTS = [
   {
     id: 16,
     category: "daal",
-    name: "Arhar Dal 500 Gm",
-    price: 59,
+    name: "Arhar (Toor) Dal 500 Gm",
+    price: 55,
     img: "image/arhar dal.webp",
   },
   {
@@ -287,29 +287,29 @@ const PRODUCTS = [
   {
     id: 39,
     category: "biscuit",
-    name: "Oreo 12 pcs",
-    price: 114,
+    name: "Oreo 1 pcs",
+    price: 10,
     img: "image/Biscuit/oreo.jpg",
   },
   {
     id: 40,
     category: "biscuit",
-    name: "Bournbon 12 pcs",
-    price: 114,
+    name: "Bournbon 1 pcs",
+    price: 10,
     img: "image/Biscuit/burbun.webp",
   },
   {
     id: 41,
     category: "biscuit",
-    name: "Nutri Choice 5 pcs",
-    price: 112,
+    name: "Nutri Choice 1 pcs",
+    price: 23,
     img: "image/Biscuit/nutri choice.jpg",
   },
   {
     id: 42,
     category: "biscuit",
-    name: "Parle G 12 pcs",
-    price: 114,
+    name: "Parle G 1 pcs",
+    price: 10,
     img: "image/Biscuit/parle g.webp",
   },
 
@@ -354,10 +354,19 @@ const PRODUCTS = [
   {
     id: 48,
     category: "butter",
-    name: "200gm Amul Butter",
-    price: 116,
+    name: "100 Gm Amul Butter",
+    price: 58,
     img: "image/milk/amul butter.jpg",
   },
+
+   {
+    id: 48,
+    category: "butter",
+    name: "500 Gm Amul Butter",
+    price: 285,
+    img: "image/milk/amul butter.jpg",
+  },
+
   {
     id: 49,
     category: "butter",
@@ -372,6 +381,44 @@ const PRODUCTS = [
     price: 500,
     img: "image/milk/ghee.webp",
   },*/
+// new
+
+  {
+  id: 70,
+  category: "butter",
+  name: "Britannia Bread",
+  price: 30,
+  img: "image/Bread/britania bread.avif",
+},
+{
+  id: 71,
+  category: "butter",
+  name: "Britannia White Bread",
+  price: 20,
+  img: "image/Bread/britania white.webp",
+},
+{
+  id: 72,
+  category: "butter",
+  name: "Harvest Aata Bread",
+  price: 60,
+  img: "image/Bread/harvest aata.avif",
+},
+{
+  id: 73,
+  category: "butter",
+  name: "Harvest Brown Bread",
+  price: 55,
+  img: "image/Bread/harvest brown.webp",
+},
+{
+  id: 74,
+  category: "butter",
+  name: "Harvest White Bread",
+  price: 30,
+  img: "image/Bread/harvest white bread.webp",
+},
+
 
   // Surf
   {
@@ -479,11 +526,10 @@ function renderProducts(category = "all") {
               <div class="price">₹${p.price}</div>
             </div>
           </div>
-          <div class="btn-row">
+           <div class="btn-row">
             <button onclick="openOrder(${p.id})">Order karein</button>
             <button class="btn-secondary" onclick="addToCart(${p.id})">Add to cart</button>
-          </div>
-        `;
+          </div>`;
     productsEl.appendChild(card);
   });
 }
